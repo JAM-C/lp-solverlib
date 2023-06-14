@@ -47,7 +47,6 @@ impl<'a> ProgramTransformer<'a> {
             objective: program.objective.clone(),
             objective_flipped: false,
             substitutions: HashMap::new(),
-            solved_values: HashMap::new(),
         }
     }
 
