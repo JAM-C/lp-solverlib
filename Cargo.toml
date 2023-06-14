@@ -1,0 +1,10 @@
+[package]
+description = "Library for optimisation in linear programming using simplex method"
+name = "simplex_method_solver"
+license = "MIT"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+array2d = "0.3.0"
+itertools = "0.10.5"
